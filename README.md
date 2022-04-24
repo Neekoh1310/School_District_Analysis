@@ -1,18 +1,18 @@
 # School_District_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given me the follwing tasks to complete the election audit of a recent local congressional election.
+The school board has notified Maria and her supervisor that the student disctrict analysis file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Maria has asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of teh data intact. Once I've replaced the math and reading scores, I will repeat the school district analysis to write up a report to describe how these changes affected the overall analysis. Here are the steps that I will have to take to complete this analysis.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+1. Replace all the Thomas High School 9th Grade math and reading scores to NaNs.
+2. Subtract these NaN scores from the overall math, reading and both percentages of the grades.
+3. Compare the new percentages to the original percentages.
+4. Compare the top 5 and bottom 5 performing schools from the new analysis with the old analysis.
+5. Determine and describe the changes that occured by re-running the analysis.
 
 
 ## Resources
-- Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
+- Data Sources: schools_complete.csv, students_complete.csv
+- Software: Python 3.6.1, Pandas Dataframe 1.3.4
 
 ## Summary
 The analysis of the election show that:
@@ -28,28 +28,4 @@ The analysis of the election show that:
 - The winner of the election was:
     - Diana DeGette who received 73.8% of the vote with a vote total of 272,892.
  
- ## Challenge Overview
  
- In addition to determining the winner of the election, the Colorado Board of Elections are also interested in determining the following:
- 
- 1. The voter turnout for each county.
- 2. The percentage of votes from each county out of the total count.
- 3. The county with the highest turnout.
-
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
- 
- ## Challenge Summary
- The analysis of the election show that:
- - There were "396,711" votes cast in the election.
- - The votes were counted from these three counties:
-    - Jefferson County
-    - Denver County
-    - Arapahoe County
-- The county vote results were:
-    - Jefferson County cast 10.5% of the votes with a vote total of 38,855.
-    - Denver County cast 82.8% of the votes with a vote total of 306,055.
-    - Arapahoe County cast 6.7% of the votes with a vote total of 24,801.
-- The county with the highest turnout was:
-    - Denver County which cast 82.8% of the votes with a vote total of 306,055.
