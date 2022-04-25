@@ -1,4 +1,4 @@
-# School District Analysis
+# 
 
 ## Project Overview
 The school board has notified Maria and her supervisor that the student disctrict analysis file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Maria has asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of teh data intact. Once I've replaced the math and reading scores, I will repeat the school district analysis to write up a report to describe how these changes affected the overall analysis. Here are the steps that I will have to take to complete this analysis.
@@ -27,7 +27,7 @@ The school board has notified Maria and her supervisor that the student disctric
     - The original percentage passing for reading was 97.308869%.
     - The percentage passing for reading after the analysis was revised and run is 69.663609%.
     - There is a very stark difference between the original math and reading scores pre and post academic dishonesty analysis.
-    - However, these numbers really cannot paint a complete picture and be used as enough evidence to prove academic dishonesty. Other factors need to be taken into account which were not included in the dataset that was provided.
+    
     
 # Comparison of Top 5 and Bottom 5 performing schools: 
     - Before the academic dishonesty analysis was run, the Top 5 Performing Schools were:
@@ -54,6 +54,12 @@ The school board has notified Maria and her supervisor that the student disctric
         3. Huang High School
         4. Hernandez High School
         5. Johnson High School
+        
+ # Summary of Changes between pre and post academic dishonesty analysis:
+    - Percentage of math passing for Thomas High School went from 93.272171% to 66.911315%.
+    - Percentage of reading passing for Thomas High School went from 97.308869% to 69.663609%.
+    - Percentage of overall passing (combined math and reading) for Thomas High School went from 90.948012% to 65.076453%.
+ 
         
 
  
