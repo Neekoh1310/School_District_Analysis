@@ -15,27 +15,46 @@ The school board has notified Maria and her supervisor that the student disctric
 - Software: Python 3.6.1, Pandas Dataframe 1.3.4
 
 ## Summary
-- Number of students and student grade totals:
+
+# Number of students and student grade totals:
     - There were 39,170 total students before any of the academic dishonesty analysis was run.
     - Of these 39,170 total students, 461 of them were in the 9th Grade of Thomas High School. 
     - After subracting the number of students that are in the 9th Grade of Thomas High School, the new total student count is 38,709.
-- Math and Reading Scores Analysis for 9th Grade Thomas High School:
+    
+# Math and Reading Scores Analysis for 9th Grade Thomas High School:
     - The original percentage passing for math was 93.272171%.
     - The percentage passing for math after the analysis was revised and run is 66.911315%.
     - The original percentage passing for reading was 97.308869%.
     - The percentage passing for reading after the analysis was revised and run is 69.663609%.
     - There is a very stark difference between the original math and reading scores pre and post academic dishonesty analysis.
     - However, these numbers really cannot paint a complete picture and be used as enough evidence to prove academic dishonesty. Other factors need to be taken into account which were not included in the dataset that was provided.
-- Comparison of Top 5 and Bottom 5 performing schools: 
+    
+# Comparison of Top 5 and Bottom 5 performing schools: 
     - Before the academic dishonesty analysis was run, the Top 5 Performing Schools were:
         1. Cabrera High School
         2. Thomas High School
         3. Griffin High School
         4. Wilson High School
         5. Pena High School
-    - Diana DeGette recieved 73.8% of the vote with a vote total of 272,892.
-    - Raymon Anthony Doane recieved 3.1% of the vote with a vote total of 11,606.
-- The winner of the election was:
-    - Diana DeGette who received 73.8% of the vote with a vote total of 272,892.
+    - After the acaemid dishonesty analysis was run, the Top 5 Performing Schools were:
+        1. Cabrera High School
+        2. Thomas High School
+        3. Griffin High School
+        4. Wilson High School
+        5. Pena High School      
+    - Before the academic dishonesty analysis was run, the Bottom 5 Performing Schools were:
+        1. Rodriguez High School
+        2. Figueroa High School
+        3. Huang High School
+        4. Hernandez High School
+        5. Johnson High School
+    - After the academic dishonesty analysis was run, the Bottom 5 Performing Schools were:  
+        1. Rodriguez High School
+        2. Figueroa High School
+        3. Huang High School
+        4. Hernandez High School
+        5. Johnson High School
+        
+
  
  
